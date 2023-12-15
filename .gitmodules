@@ -1,3 +1,6 @@
 [submodule "compound-config"]
 	path = compound-config
 	url = https://github.com/compound-finance/compound-config.git
+[submodule "zksync/zoro-protocol"]
+	path = zksync/zoro-protocol
+	url = git@github.com-enzo:zoro-protocol/zoro-protocol.git
