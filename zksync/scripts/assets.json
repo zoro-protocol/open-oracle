@@ -1,0 +1,14 @@
+{
+    "wbtc": {
+        "decimals": 8
+    },
+    "eth": {
+        "decimals": 18
+    },
+    "usdc": {
+        "decimals": 6
+    },
+    "usdt": {
+        "decimals": 6
+    }
+}
