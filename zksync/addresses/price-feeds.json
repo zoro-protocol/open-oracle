@@ -1,0 +1,48 @@
+{
+    "aave-usd": {
+        "324": "0x2137c69DCb41f611Cc8f39F8A98047e774d6ED74"
+    },
+    "btc-usd": {
+        "280": "0x0d1952b0Ed690Af2b8aF899CE3DAd24c97bc975b",
+        "324": "0x4Cba285c15e3B540C474A114a7b135193e4f1EA6"
+    },
+    "wbtc-usd": {
+        "280": "0x0d1952b0Ed690Af2b8aF899CE3DAd24c97bc975b",
+        "324": "0x4Cba285c15e3B540C474A114a7b135193e4f1EA6"
+    },
+    "dai-usd": {
+        "280": "0x9201e30038e1A51913666847cb8e3c25652E88F6",
+        "324": "0x5d336664b5D7A332Cd256Bf68CbF2270C6202fc6"
+    },
+    "doge-usd": {
+        "324": "0x2cC24D99500a134ea7f78736b5C329C84599fb1B"
+    },
+    "eth-usd": {
+        "280": "0x2bBaff398B72d5B26f4f9B3397cfd9DC578a9f08",
+        "324": "0x6D41d1dc818112880b40e26BD6FD347E41008eDA"
+    },
+    "link-usd": {
+        "280": "0x47f0cB12d135c80B1ceF68D32BF781cd75AF49cc",
+        "324": "0x1b5a683579f53b9E30B538F70544444389633c75"
+    },
+    "pepe-usd": {
+        "324": "0xC63659E46f8D01d5EbF4DfC9DAB788f7D2A07293"
+    },
+    "sol-usd": {
+        "324": "0x498232F0a52D4e94A6e0Ea93D63C07Bc63133009"
+    },
+    "uni-usd": {
+        "324": "0x93A08A9D592101938D4a63c86d0989d7018c00D9"
+    },
+    "usdc-usd": {
+        "280": "0x37FBa63C443Ca1Bf262B9E6cc46c4B46273F687C",
+        "324": "0x1824D297C6d6D311A204495277B63e943C2D376E"
+    },
+    "usdt-usd": {
+        "280": "0x137dA9d2Dd5170F22C5132BE2024774243D748a3",
+        "324": "0xB615075979AE1836B476F651f1eB79f0Cd3956a9"
+    },
+    "wsteth-steth": {
+        "324": "0x24a0C9404101A8d7497676BE12F10aEa356bAC28"
+    }
+}
