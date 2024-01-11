@@ -1,8 +1,23 @@
 {
-    "wbtc": {
-        "decimals": 8
+    "aave": {
+        "decimals": 18
+    },
+    "doge": {
+        "decimals": 18
     },
     "eth": {
+        "decimals": 18
+    },
+    "link": {
+        "decimals": 18
+    },
+    "pepe": {
+        "decimals": 18
+    },
+    "sol": {
+        "decimals": 9
+    },
+    "uni": {
         "decimals": 18
     },
     "usdc": {
@@ -10,5 +25,8 @@
     },
     "usdt": {
         "decimals": 6
+    },
+    "wbtc": {
+        "decimals": 8
     }
 }
