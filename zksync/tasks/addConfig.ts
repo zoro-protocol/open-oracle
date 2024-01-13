@@ -4,6 +4,7 @@ import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { Wallet } from "zksync-web3";
 import { type TokenConfig } from "../../configuration/parameters-price-oracle";
 import { getTokenConfig } from "../scripts/token-configs";
+import { AddConfigParams } from "../scripts/types";
 
 async function main(
   hre: HardhatRuntimeEnvironment,
@@ -27,7 +28,7 @@ task("addConfig", "Add a token config to the price oracle")
 .addPositionalParam("underlying", "Symbol of the underlying token")
 .setAction(
   async (
-    { underlying }: DeployTestTokenParams,
+    { underlying }: AddConfigParams,
     hre: HardhatRuntimeEnvironment
   ) => {
     console.log("Adding token config...");
