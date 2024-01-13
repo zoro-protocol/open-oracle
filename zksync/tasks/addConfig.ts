@@ -25,7 +25,7 @@ async function main(
 }
 
 task("addConfig", "Add a token config to the price oracle")
-.addPositionalParam("underlying", "Symbol of the underlying token")
+.addPositionalParam("underlying", "Symbol of the underlying token (optionally use the pool name as a prefix, e.g. degen:wbtc)")
 .setAction(
   async (
     { underlying }: AddConfigParams,
