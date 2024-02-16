@@ -17,9 +17,9 @@ const config: HardhatUserConfig = {
   },
   networks: {
     zkLocal: {
-      url: "http://localhost:3050",
-      ethNetwork: "localhost",
-      chainId: 270,
+      url: "http://localhost:8011",
+      ethNetwork: "http://localhost:8545",
+      chainId: 260,
       zksync: true,
       zkWallet: {
         privateKey: richWallets[0].privateKey,
