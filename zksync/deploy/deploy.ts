@@ -3,7 +3,6 @@ import { type BigNumber } from "ethers";
 import { type Contract, type Wallet } from "zksync-web3";
 import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
 import { type TokenConfig } from "../../configuration/parameters-price-oracle";
-import { getTokenConfigs } from "../scripts/token-configs";
 
 export default async function (hre: HardhatRuntimeEnvironment): Promise<void> {
   const wallet: Wallet = await hre.getZkWallet();
@@ -13,7 +12,7 @@ export default async function (hre: HardhatRuntimeEnvironment): Promise<void> {
   const contractFullyQualifedName = "contracts/PriceOracle/PriceOracle.sol:PriceOracle";
   const artifact = await deployer.loadArtifact(contractFullyQualifedName);
 
-  const args: TokenConfig[][] = [getTokenConfigs(hre)];
+  const args: TokenConfig[][] = [[]];
 
   // Estimate contract deployment fee
   const deploymentFee: BigNumber = await deployer.estimateDeployFee(
