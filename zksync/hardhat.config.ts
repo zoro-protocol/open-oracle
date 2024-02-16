@@ -4,7 +4,6 @@ import "@nomiclabs/hardhat-ethers";
 import "@matterlabs/hardhat-zksync-toolbox";
 import "@zoroprotocol/hardhat-zksync-web3";
 import "@zoroprotocol/hardhat-addresses";
-import "./tasks/addConfig";
 
 import richWallets from "./rich-wallets.json";
 
@@ -17,9 +16,9 @@ const config: HardhatUserConfig = {
   },
   networks: {
     zkLocal: {
-      url: "http://localhost:3050",
+      url: "http://localhost:8011",
       ethNetwork: "localhost",
-      chainId: 270,
+      chainId: 260,
       zksync: true,
       zkWallet: {
         privateKey: richWallets[0].privateKey,
