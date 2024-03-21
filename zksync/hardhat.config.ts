@@ -35,6 +35,16 @@ const config: HardhatUserConfig = {
         keystore: ETH_KEYSTORE,
       },
     },
+    zkSyncMainnet: {
+      url: "https://mainnet.era.zksync.io",
+      ethNetwork: "mainnet",
+      chainId: 324,
+      zksync: true,
+      verifyURL: "https://zksync2-mainnet-explorer.zksync.io/contract_verification",
+      zkWallet: {
+        keystore: ETH_KEYSTORE,
+      },
+    },
   },
   defaultNetwork: "zkLocal", // optional (if not set, use '--network zkTestnet')
 };
